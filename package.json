@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-auto-zip-git",
+  "version": "1.0.7",
+  "description": "A Vite plugin for automatic build and Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zip",
+    "vite",
+    "git"
+  ],
+  "type": "module",
+  "types": "index.d.ts",
+  "author": "songjiang",
+  "license": "ISC",
+  "repository": {
+    
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "rimraf": "^6.0.1",
+    "vite": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  }
+}
